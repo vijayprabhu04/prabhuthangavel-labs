@@ -21,11 +21,17 @@
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.cwd": "/workspaces/prabhuthangavel-labs/terraform",
         "workbench.startupEditor": "none",
         "extensions.ignoreRecommendations": true,
         "terminal.integrated.tabs.enabled": false,
         "workbench.tips.enabled": false,
-        "workbench.welcomePage.walkthroughs.openOnInstall": false
+        "workbench.welcomePage.walkthroughs.openOnInstall": false,
+        "files.exclude": {
+          "linux/": true,
+          ".devcontainer/": true,
+          ".gitignore": true
+        }
       }
     }
   },

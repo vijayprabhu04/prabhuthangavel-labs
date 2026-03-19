@@ -7,11 +7,17 @@
       "extensions": ["redhat.vscode-yaml"],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.cwd": "/workspaces/prabhuthangavel-labs/linux",
         "workbench.startupEditor": "none",
         "extensions.ignoreRecommendations": true,
         "terminal.integrated.tabs.enabled": false,
         "workbench.tips.enabled": false,
-        "workbench.welcomePage.walkthroughs.openOnInstall": false
+        "workbench.welcomePage.walkthroughs.openOnInstall": false,
+        "files.exclude": {
+          "terraform/": true,
+          ".devcontainer/": true,
+          ".gitignore": true
+        }
       }
     }
   }
