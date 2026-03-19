@@ -12,6 +12,6 @@ Hands-on labs for the Terraform course. Runs on **LocalStack** — no AWS accoun
 
 ## Launch
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/vijayprabhu04/prabhuthangavel-labs?devcontainer_path=terraform/.devcontainer/devcontainer.json)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/vijayprabhu04/prabhuthangavel-labs)
 
 > The environment comes with **Terraform**, **AWS CLI**, and **LocalStack** pre-configured. Just open and start coding.
