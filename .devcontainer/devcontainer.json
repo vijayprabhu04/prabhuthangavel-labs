@@ -10,7 +10,7 @@
     },
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
-  "postCreateCommand": "docker pull localstack/localstack:latest",
+  "postCreateCommand": "docker pull localstack/localstack:latest && echo '✅ LocalStack image cached'",
   "postStartCommand": "bash .devcontainer/setup.sh",
   "postAttachCommand": "code WELCOME.md",
   "workspaceFolder": "/workspaces/prabhuthangavel-labs",

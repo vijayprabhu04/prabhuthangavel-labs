@@ -1,0 +1,14 @@
+{
+  "name": "Terraform Install Lab (Bare)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postAttachCommand": "code WELCOME.md",
+  "workspaceFolder": "/workspaces/prabhuthangavel-labs",
+  "customizations": {
+    "vscode": {
+      "extensions": ["redhat.vscode-yaml"],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
