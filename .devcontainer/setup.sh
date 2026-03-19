@@ -29,5 +29,5 @@ echo 'alias lab-status="curl -s http://localhost:4566/_localstack/health | pytho
 echo ""
 echo "🚀 Lab environment ready!"
 echo "   terraform, aws cli, localstack — all configured."
-echo "   cd terraform/lab-01-your-first-terraform to start."
+echo "   cd terraform/lab-01-getting-started/02-your-first-s3-bucket to start."
 echo ""

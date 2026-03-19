@@ -4,11 +4,10 @@ Hands-on labs for the Terraform course. Runs on **LocalStack** — no AWS accoun
 
 ## Labs
 
-| # | Lab | What You'll Build |
-|---|-----|-------------------|
-| 01 | [Your First Terraform](./lab-01-your-first-terraform/) | Create and modify an S3 bucket |
-| 02 | Coming soon | Variables, outputs & state |
-| 03 | Coming soon | AWS resources with dependencies |
+| # | Lab | Sub-Labs |
+|---|-----|----------|
+| 01 | [Getting Started](./lab-01-getting-started/) | Installing Terraform · First S3 Bucket · Understanding State |
+| 02 | [Working with Config](./lab-02-working-with-config/) | Variables & tfvars · Outputs · Multi-Resource Config |
 
 ## Launch
 
