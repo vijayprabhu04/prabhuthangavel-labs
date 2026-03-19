@@ -11,9 +11,11 @@ services:
       - localstack-data:/var/lib/localstack
 
   workspace:
-    image: mcr.microsoft.com/devcontainers/base:ubuntu
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
-      - ../..:/workspace:cached
+      - ../..:/workspaces:cached
     depends_on:
       - localstack
     command: sleep infinity
