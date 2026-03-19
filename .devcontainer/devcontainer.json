@@ -12,7 +12,6 @@
   },
   "postCreateCommand": "docker pull localstack/localstack:latest && echo '✅ LocalStack image cached'",
   "postStartCommand": "bash .devcontainer/setup.sh",
-  "postAttachCommand": "code WELCOME.md",
   "workspaceFolder": "/workspaces/prabhuthangavel-labs",
   "customizations": {
     "vscode": {
@@ -21,7 +20,12 @@
         "redhat.vscode-yaml"
       ],
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash"
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "workbench.startupEditor": "none",
+        "extensions.ignoreRecommendations": true,
+        "terminal.integrated.tabs.enabled": false,
+        "workbench.tips.enabled": false,
+        "workbench.welcomePage.walkthroughs.openOnInstall": false
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "name": "Terraform Install Lab (Bare)",
+  "name": "Linux Lab (Bare)",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "workspaceFolder": "/workspaces/prabhuthangavel-labs",
   "customizations": {
