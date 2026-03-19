@@ -1,0 +1,22 @@
+services:
+  localstack:
+    image: localstack/localstack:latest
+    environment:
+      - SERVICES=s3,iam,sts,sqs,dynamodb,lambda,logs,cloudwatch,secretsmanager
+      - DEFAULT_REGION=us-east-1
+      - EAGER_SERVICE_LOADING=1
+    ports:
+      - "4566:4566"
+    volumes:
+      - localstack-data:/var/lib/localstack
+
+  workspace:
+    image: mcr.microsoft.com/devcontainers/base:ubuntu
+    volumes:
+      - ../..:/workspace:cached
+    depends_on:
+      - localstack
+    command: sleep infinity
+
+volumes:
+  localstack-data:
